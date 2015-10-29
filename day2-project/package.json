@@ -1,0 +1,19 @@
+{
+  "name": "day2project",
+  "version": "0.0.1",
+  "description": "project for day 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "project",
+    "day2"
+  ],
+  "author": "Max Escher",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}

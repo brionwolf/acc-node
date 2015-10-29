@@ -1,0 +1,23 @@
+{
+  "name": "day2project2",
+  "version": "0.0.1",
+  "description": "the second project for day 2 of npm",
+  "main": "index.js",
+  "scripts": {
+    "logger": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "npm",
+    "project",
+    "acc",
+    "ccny"
+  ],
+  "author": "Max Escher",
+  "license": "ISC",
+  "dependencies": {
+    "rainbow-console": "0.0.2"
+  }
+}
