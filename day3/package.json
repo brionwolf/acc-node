@@ -1,0 +1,20 @@
+{
+  "name": "day3",
+  "version": "1.0.0",
+  "description": "Server Application",
+  "main": "day3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node day3.js",
+    "babel": "babel public/src/es6/main.js -w -o public/build/js/main.js",
+    "less": "less-watch-compiler",
+    "build": "npm run start-server & npm run babel & npm run less" 
+  },
+  "author": "Max escher",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.0.15",
+    "finalhandler": "^0.4.0",
+    "serve-static": "^1.10.0"
+  }
+}
